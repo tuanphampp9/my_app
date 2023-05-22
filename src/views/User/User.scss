@@ -1,0 +1,25 @@
+.list-user{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    .info-user{
+
+        .img{
+            cursor: pointer;
+            width:150px;
+            height:150px;
+        }
+    }
+}
+.btn-link{
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    border:1px solid orange;
+    margin: 10px auto;
+    width:100px;
+    border-radius: 5px;
+    font-size: 16px;
+}

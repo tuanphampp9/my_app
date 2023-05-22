@@ -1,0 +1,24 @@
+.box-todo{
+    button{
+        cursor: pointer;
+    }
+    .list-todo{
+        list-style: none;
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .todo-item{
+            width:600px;
+            padding:8px 10px;
+            border-top:1px solid white;
+            .btn-edit{
+                margin:0px 10px;
+            }
+        }
+        :last-child{
+            border-bottom:1px solid white ;
+        }
+    }
+}
